@@ -1,0 +1,27 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual envs
+venv/
+.env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# DATA (do NOT push raw data)
+data/
+*.csv
+*.parquet
+*.zip
+
+# Secrets
+*.env
+secrets.*.json
